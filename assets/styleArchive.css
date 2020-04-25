@@ -30,6 +30,13 @@ background: #FFC8AA;
   color: #ff5100;
 }
 
+.essayheadline2 {
+  font-family: 'Fugue';
+  letter-spacing: 0.4px;
+  font-size: 6vh;
+  line-height: 1.2em;
+  color: #ff5100;
+}
 
 
 .essaytext {
