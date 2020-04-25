@@ -15,7 +15,7 @@ background: #FFC8AA;
 .sidelogo{
   font-family: 'Fugue';
   letter-spacing: 0.4px;
-  font-size: 18px;
+  font-size: 2vh;
   color: #ff5100;
   padding-left: 40px;
   padding-top: 20px;
@@ -25,7 +25,8 @@ background: #FFC8AA;
 .essayheadline {
   font-family: 'Fugue';
   letter-spacing: 0.4px;
-  font-size: 54px;
+  font-size: 6vh;
+  line-height: 1.5em;
   color: #ff5100;
 }
 
@@ -34,11 +35,22 @@ background: #FFC8AA;
 .essaytext {
   padding-top: 20px;
   font-family: sans-serif;
-  font-size: 16px;
+  font-size: 1.8vh;
   color: #ff5100;
-  line-height: 3em;
+  line-height: 1.5em;
 }
 
+
+.labels {
+  color: #ff5100;
+  font-family: sans-serif;
+  font-size: 1.5vh;
+  line-height: 1.3em;
+
+  color: #ff5100;
+  padding-left: 40px;
+
+}
 
 
 .tinytext2{
@@ -67,6 +79,32 @@ background: #FFC8AA;
   /* object-fit: fill; */
 }
 
+
+/* unvisited link */
+a:link {
+  text-decoration: none;
+  color:  #ff5100;
+}
+
+/* visited link */
+a:visited {
+  text-decoration: none;
+  color:  #ff5100;
+}
+
+/* mouse over link */
+a:hover {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+
+}
+
+/* selected link */
+a:active {
+  text-decoration: none;
+  color:  #ff5100;
+}
 
 
 /* two columns css */
