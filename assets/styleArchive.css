@@ -1,0 +1,91 @@
+
+
+html, body{
+margin: 0;
+background: #FFC8AA;
+}
+
+
+
+@font-face {
+  font-family: 'Fugue';
+  src: url('FugueTails.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+.sidelogo{
+  font-family: 'Fugue';
+  letter-spacing: 0.4px;
+  font-size: 18px;
+  color: #ff5100;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+
+.essayheadline {
+  font-family: 'Fugue';
+  letter-spacing: 0.4px;
+  font-size: 54px;
+  color: #ff5100;
+}
+
+
+
+.essaytext {
+  padding-top: 20px;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #ff5100;
+  line-height: 3em;
+}
+
+
+
+.tinytext2{
+  color: #ff5100;
+  line-height: 1.3em;
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+
+
+.tinytext{
+  background: #FFC8AA;
+  color: #ff5100;
+  line-height: 1.3em;
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.video2{
+  width: 60%;
+  /* height: fixed;
+  width: fixed; */
+  /* object-fit: fill; */
+}
+
+
+
+/* two columns css */
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
