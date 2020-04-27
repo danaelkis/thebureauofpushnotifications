@@ -30,32 +30,40 @@
 }
 
 .notification__body {
-  background-color: white;
-  border-style: solid;
-  border-color: #ff5100;
+  background-color: #FFC8AA;
+  /* border-style: solid; */
+  /* border-color: #ff5100; */
   height: 100px;
   padding: 1rem;
   padding: 70px 0;
   text-align: center;
+  border-radius: 5px;
+  font-family: sans-serif;
+  color: #ff5100;
+
 }
 
 .notification__button {
-  background: #ff5100;
+  background: #FFC8AA;
   text-align: center;
   line-height: 30px;
-  color: white;
-  height: 30px;
+  color: #ff5100;
+  height: 50px;
   width: 200px;
   padding: 10px;
   border-radius: 5px;
   margin-top:10px;
   cursor: pointer;
   transition-duration: 0.4s;
+  font-family: sans-serif;
 }
 
 .notification__button:hover {
-  background-color: #4CAF50; /*color of the backgrounf */
-  color: black; /* color of the text */
+  background-color: #ff5100; /*color of the backgrounf */
+  color: #ff5100; /* color of the text */
+  font-family: sans-serif;
+  color: #FFC8AA;
+
 }
 
 html, body{

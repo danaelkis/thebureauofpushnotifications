@@ -26,8 +26,23 @@ const allButtons=[
     text1: 'this is where you click',
     x: 10,
     y: 20,
-    time: 13,
+    time: 15,
   },
+  {
+ text: 'this is where is the text',
+    text1: 'this is where you click',
+    x: 10,
+    y: 20,
+    time: 22,
+  },
+  {
+ text: 'this is where is the text',
+    text1: 'this is where you click',
+    x: 10,
+    y: 20,
+    time: 22,
+  },
+
 ];
 // remember how many buttons are active
 let activeButtons=0;
@@ -70,31 +85,10 @@ function addButton (btn){
   document.body.appendChild(n_wrapper);
 }
 
-/*
-function addButton (text,x,y){
-  // create a new button with text,x,y
-  // pause the video and add to registry
-  document.getElementById("myVideo").pause();
-  activeButtons+=1;
-  const el = document.createElement("div");
-  el.className="myButton";
-  el.onclick= ()=>buttonClicked(el);
-  el.innerText=text;
-  el.style.top=y+"px";
-  el.style.left=x+"px";
-  document.body.appendChild(el);
-}
-*/
-
 // autostart video
 setTimeout(function(){document.getElementById("myVideo").play()},100);
 
-// TODO: change this
-// example of adding buttons
-// setTimeout(()=>addButton('test',100,100),7000);
-// setTimeout(()=>addButton('test2',50,20),15000);
-// setTimeout(()=>addButton('test3',200,200),16000);
-// setTimeout(()=>addButton('test4',200,10),25000);
+
 
 setInterval(function(){
   // get time of video every X ms
@@ -111,3 +105,27 @@ setInterval(function(){
     }
   })
 },500)
+
+
+// TODO: change this
+// example of adding buttons
+// setTimeout(()=>addButton('test',100,100),7000);
+// setTimeout(()=>addButton('test2',50,20),15000);
+// setTimeout(()=>addButton('test3',200,200),16000);
+// setTimeout(()=>addButton('test4',200,10),25000);
+
+/*
+function addButton (text,x,y){
+  // create a new button with text,x,y
+  // pause the video and add to registry
+  document.getElementById("myVideo").pause();
+  activeButtons+=1;
+  const el = document.createElement("div");
+  el.className="myButton";
+  el.onclick= ()=>buttonClicked(el);
+  el.innerText=text;
+  el.style.top=y+"px";
+  el.style.left=x+"px";
+  document.body.appendChild(el);
+}
+*/

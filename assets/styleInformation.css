@@ -1,0 +1,162 @@
+
+
+html, body{
+margin: 0;
+background: #FFC8AA;
+
+}
+
+
+@font-face {
+  font-family: 'Fugue';
+  src: url('FugueTails.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+/*
+body {
+display: Flex;
+justify-content: center;
+} */
+
+
+
+.sidelogo{
+  font-family: 'Fugue';
+  letter-spacing: 0.4px;
+  font-size: 2vh;
+  color: #ff5100;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+/* unvisited link */
+a:link {
+  text-decoration: none;
+  color:  #ff5100;
+}
+
+/* visited link */
+a:visited {
+  text-decoration: none;
+  color:  #ff5100;
+}
+
+/* mouse over link */
+a:hover {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+
+}
+
+/* selected link */
+a:active {
+  text-decoration: none;
+  color:  #ff5100;
+}
+
+
+
+
+.labels {
+  color: #ff5100;
+  font-family: sans-serif;
+  font-size: 1.5vh;
+  line-height: 1.3em;
+
+  color: #ff5100;
+  padding-left: 40px;
+
+}
+
+
+.essayheadline {
+  font-family: 'Fugue';
+  letter-spacing: 0.4px;
+  font-size: 6vh;
+  line-height: 1.5em;
+  color: #ff5100;
+}
+
+.essayheadline2 {
+  font-family: 'Fugue';
+  letter-spacing: 0.4px;
+  font-size: 6vh;
+  line-height: 1.2em;
+  color: #ff5100;
+}
+
+
+.essaytext {
+  padding-top: 20px;
+  font-family: sans-serif;
+  font-size: 1.8vh;
+  color: #ff5100;
+  line-height: 1.5em;
+}
+
+.essaytext2 {
+  font-family: sans-serif;
+  font-size: 1.8vh;
+  line-height: 1.5em;
+  color: #ff5100;
+}
+
+
+.essaytext3 {
+  font-family: sans-serif;
+  font-size: 1.8vh;
+  line-height: 1.5em;
+  color: #ff5100;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@keyframes spin2 {
+    from {transform:rotate(360deg);}
+    to {transform:rotate(0deg);}
+}
+
+
+.sideB{
+  /* transform: rotate(40deg); */
+  -webkit-animation:spin2 8s linear infinite;
+  -moz-animation:spin2 8s linear infinite;
+  animation:spin2 8s linear infinite;
+  /* top: 2vh; */
+  font-size: 1.5vw;
+}
+
+.sideA {
+    /* transform: rotate(40deg); */
+    -webkit-animation:spin 12s linear infinite;
+    -moz-animation:spin 12s linear infinite;
+    animation:spin 12s linear infinite;
+    top: 2vh;
+    font-size: 1.5vw;
+}
+
+
+
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
