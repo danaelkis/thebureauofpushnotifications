@@ -27,21 +27,22 @@
 
 .notification {
   position: absolute;
-  height: 200px;
-  width: 200px;
+  /* height: 200px;
+  width: 200px; */
 }
 
 .notification__body {
   background-color: #FFC8AA;
   /* border-style: solid; */
   /* border-color: #ff5100; */
-  height: 100px;
-  padding: 1rem;
-  padding: 70px 0;
+  /* height: 100px; */
   text-align: center;
-  border-radius: 5px;
-  font-family: sans-serif;
+  border-radius: 12px;
+  padding: 35px;
+  /* font-family: sans-serif; */
   color: #ff5100;
+  transition-duration: 1s;
+
 
 }
 
@@ -50,14 +51,14 @@
   text-align: center;
   line-height: 30px;
   color: #ff5100;
-  height: 50px;
-  width: 200px;
-  padding: 10px;
-  border-radius: 5px;
-  margin-top:10px;
+  height: 70px;
+  /* width: 200px; */
+  padding: 20px;
+  border-radius: 12px;
+  margin-top:15px;
   cursor: pointer;
-  transition-duration: 0.4s;
-  font-family: sans-serif;
+  transition-duration: 1s;
+  /* font-family: sans-serif; */
 }
 
 .notification__button:hover {
