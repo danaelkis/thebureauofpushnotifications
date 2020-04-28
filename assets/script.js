@@ -86,8 +86,14 @@ function addButton (btn){
 }
 
 // autostart video
-setTimeout(function(){document.getElementById("myVideo").play()},100);
 
+function init() {
+
+  var overlay = document.getElementById( 'overlay' );
+  			overlay.remove();
+
+
+setTimeout(function(){document.getElementById("myVideo").play()},100);
 
 
 setInterval(function(){
@@ -105,6 +111,33 @@ setInterval(function(){
     }
   })
 },500)
+}
+
+
+window.onload = function (){
+  var startButton = document.getElementById( 'startButton' );
+  		startButton.addEventListener( 'click', init );
+}
+
+
+// setTimeout(function(){document.getElementById("myVideo").play()},100);
+//
+//
+// setInterval(function(){
+//   // get time of video every X ms
+//   const currentTime=document.getElementById("myVideo").currentTime;
+//   // console.log(currentTime);
+//   allButtons.forEach(button=>{
+//     // iterate over all the buttons to see if they need to be triggered
+//     if (!button.played && currentTime-0.300<button.time && currentTime+0.300>button.time){
+//       addButton(button);
+//       // set button to trigger only once
+//       button.played=true;
+//
+//       // allButtons.shift();
+//     }
+//   })
+// },500)
 
 
 // TODO: change this

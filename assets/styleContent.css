@@ -202,7 +202,7 @@ a:active {
     height: 100px;
     color: black;
     margin: 8vw;
-text-align: center;
+    text-align: center;
     -webkit-animation-name: spin3;
     -webkit-animation-duration: 4000ms;
     -webkit-animation-iteration-count: infinite;
