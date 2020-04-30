@@ -20,7 +20,6 @@ background-color: red;
 margin: 20px;
 width: 10vh;
 height: 5vh;
-
 }
 
 
@@ -102,9 +101,10 @@ a {
   cursor: pointer;
 }
 
-a.hover{
+a:hover{
 color: black;
 }
+
 
 
 .sideA {
