@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset='UTF-8'>
+	<link rel='stylesheet' href='./assets/styleSound.css'>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+</head>
+
+<body>
+
+		<header>
+      <div>
+
+<div>
+
+		<div id="nav-two" class="nav">
+
+        <a href="#" style="position: absolute; top:79%; left:15%;" >A push</a>
+
+      <audio id="beep-two">
+				<source src="https://drive.google.com/uc?export=download&id=17NwMkMYyWgY4E6-j78-1hWfBGHAjjuOa" type="audio/mpeg" controls></source>
+        <!-- <source src="https://drive.google.com/uc?export=download&id=1m2I1IvgbxAg9n6WUVNWO6S3q4xG09XY1" type="audio/mpeg" controls></source> -->
+			</audio>
+
+
+
+		  <a href="#" style="position: absolute; top:5%; left:3%;">A push</a>
+		  <a href="#" style="position: absolute; top:15%; left:30%;">A push</a>
+      <a href="#" style="position: absolute; top:60%; left:42%;">A push</a>
+      <a href="#" style="position: absolute; top:42%; left:18%;">A push</a>
+      <a href="#" style="position: absolute; top:37%; left:88%;">A push</a>
+      <a href="#" style="position: absolute; top:55%; left:10%;">A push</a>
+      <a href="#" style="position: absolute; top:75%; left:9%;">A push</a>
+      <a href="#" style="position: absolute; top:90%; left:33%;">A push</a>
+      <a href="#" style="position: absolute; top:56%; left:74%;">A push</a>
+      <a href="#" style="position: absolute; top:21%; left:92%;">A push</a>
+      <a href="#" style="position: absolute; top:82%; left:21%;">A push</a>
+      <a href="#" style="position: absolute; top:29%; left:29%;">A push</a>
+      <a href="#" style="position: absolute; top:10%; left:65%;">A push</a>
+
+		</div>
+
+		<script>$("#nav-two a")
+  .each(function(i) {
+    if (i != 0) {
+      $("#beep-two")
+        .clone()
+        .attr("id", "beep-two" + i)
+        .appendTo($(this).parent());
+    }
+    $(this).data("beeper", i);
+  })
+  .mouseenter(function() {
+    $("#beep-two" + $(this).data("beeper"))[0].play();
+  });
+$("#beep-two").attr("id", "beep-two0");</script>
+
+		</div>
+
+
+    <div>
+
+    		<div id="nav-three" class="nav">
+
+            <a href="#" style="position: absolute; top:8%; left:8%;" >A push </a>
+
+          <audio id="beep-three">
+            <source src="https://drive.google.com/uc?export=download&id=1m2I1IvgbxAg9n6WUVNWO6S3q4xG09XY1" type="audio/mpeg" controls></source>
+    			</audio>
+
+
+
+    		  <a href="#" style="position: absolute; top:19%; left:51%;">A push</a>
+    	    <a href="#" style="position: absolute; top:6%; left:72%;">A push</a>
+          <a href="#" style="position: absolute; top:12%; left:89%;">A push</a>
+          <a href="#" style="position: absolute; top:16%; left:82%;">A push</a>
+          <a href="#" style="position: absolute; top:21%; left:88%;">A push</a>
+          <a href="#" style="position: absolute; top:10%; left:55%;">A push</a>
+          <a href="#" style="position: absolute; top:9%; left:78%;">A push</a>
+          <a href="#" style="position: absolute; top:29%; left:90%;">A push</a>
+          <a href="#" style="position: absolute; top:34%; left:74%;">A push</a>
+          <a href="#" style="position: absolute; top:47%; left:12%;">A push</a>
+          <a href="#" style="position: absolute; top:58%; left:66%;">A push</a>
+          <a href="#" style="position: absolute; top:89%; left:8%;">A push</a>
+          <a href="#" style="position: absolute; top:43%; left:55%;">A push</a>
+
+    		</div>
+
+    		<script>$("#nav-three a")
+      .each(function(i) {
+        if (i != 0) {
+          $("#beep-three")
+            .clone()
+            .attr("id", "beep-three" + i)
+            .appendTo($(this).parent());
+        }
+        $(this).data("beeper", i);
+      })
+      .mouseenter(function() {
+        $("#beep-three" + $(this).data("beeper"))[0].play();
+      });
+    $("#beep-three").attr("id", "beep-three0");</script>
+
+    		</div>
+
+
+</body>
+
+</html>
