@@ -39,7 +39,7 @@ height: 5vh;
 }
 
 .notification__body {
-  background-color: #FFC8AA;
+  background: #FFC8AA;
   /* border-style: solid; */
   /* border-color: #ff5100; */
   height: 100px;

@@ -14,6 +14,12 @@
   --textsize: 1vh;
 } */
 
+#startButton{
+border-radius: 15px;
+width: 100px;
+height: 50px;
+}
+
 
 
 .myVideo{
