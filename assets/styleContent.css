@@ -3,7 +3,7 @@
 html, body{
 margin: 0;
 background: #FFC8AA;
-
+/* overflow: hidden; */
 }
 
 text {
@@ -23,7 +23,7 @@ justify-content: center;
 } */
 
 .box_item {
-width: 30vw;
+width: 15vw;
 height: 5vw;
 display: flex;
 align-items: center;
@@ -225,4 +225,25 @@ a:active {
       to {
         -webkit-transform:rotate(360deg);
       }
+    }
+
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #ff5100;
+      font-family: sans-serif;
+      color: #FFC8AA;
+      text-align: center;
+    }
+
+    .logo{
+      font-family: 'Fugue';
+      letter-spacing: 0.4px;
+    }
+
+
+    .divs{
+      padding: 20%;
     }

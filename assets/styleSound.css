@@ -1,6 +1,6 @@
 
 /*
-	 CSS-Tricks Example
+  thank you
 	 by Chris Coyier
 	 http://css-tricks.com
 */
@@ -130,6 +130,18 @@ a:active {
 	margin: 0 auto;
 } */
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 4%;
+  width: 100%;
+  background-color: #ff5100;
+  font-family: sans-serif;
+  color: #FFC8AA;
+  text-align: center;
+}
+
 
 
 #two {
@@ -149,19 +161,17 @@ a:active {
 .nav a {
 	display: block;
 	padding: 20px;
+  border-radius: 12px;
 	text-decoration: none;
 	color: transparent;
 
 }
 .nav a:hover {
 	background: #ff5100;
-  color: black;
+  color: #FFC8AA;
 }
 
 .nav audio { position: absolute; left: 110%; top: 10px; display: block; height: 30px; width: 200px; }
-
-
-
 
 
 #page-wrap script {
