@@ -242,7 +242,7 @@ const allButtons=[
                 {
                 text: 'its might rain today',
                    text1: 'clear',
-                   x: 80,
+                   x: 60,
                    y: 30,
                    time: 261,
                    fonts: 'sans-serif',
@@ -251,7 +251,7 @@ const allButtons=[
                  {
                  text: 'should i send you a push when the coronavirus is over?',
                     text1: 'clear',
-                    x: 90,
+                    x: 60,
                     y: 40,
                     time: 323,
                     fonts: 'sans-serif',
