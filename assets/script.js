@@ -344,6 +344,7 @@ function addButton (btn){
 
 function init() {
 
+//this!
   var overlay = document.getElementById( 'overlay' );
   			overlay.remove();
 
@@ -370,6 +371,7 @@ setInterval(function(){
 
 
 window.onload = function (){
+  //this!
   var startButton = document.getElementById( 'startButton' );
   		startButton.addEventListener( 'click', init );
 }
