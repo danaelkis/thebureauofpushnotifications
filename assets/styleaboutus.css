@@ -144,6 +144,15 @@ a:active {
 }
 
 
+.smallheadline{
+  font-family: 'Fugue';
+  letter-spacing: 0.4px;
+  font-size: 3vh;
+  line-height: 1.5em;
+  color: #ff5100;
+
+}
+
 
 * {
   box-sizing: border-box;
