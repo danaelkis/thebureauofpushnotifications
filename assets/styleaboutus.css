@@ -1,0 +1,249 @@
+
+
+html, body{
+margin: 0;
+background: #FFC8AA;
+/* overflow: hidden; */
+}
+
+text {
+fill: #ff5100;
+font-size: 1.8vh;
+}
+
+@font-face {
+  font-family: 'Fugue';
+  src: url('FugueTails.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+/*
+body {
+display: Flex;
+justify-content: center;
+} */
+
+.box_item {
+width: 15vw;
+height: 5vw;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 20px;
+font-family: 'Fugue';
+letter-spacing: 0.4px;
+font-size: 6vh;
+line-height: 1.2em;
+color: #ff5100;
+}
+
+
+.box_item:hover{
+  font-size: 0;
+}
+
+
+.box_item:hover:after{
+  content: attr(data-hover);
+  font-size:1.8vh;
+  line-height: 1.2em;
+  text-align: center;
+  font-family: sans-serif;
+
+}
+
+
+
+.sidelogo{
+  font-family: 'Fugue';
+  letter-spacing: 0.4px;
+  font-size: 2vh;
+  color: #ff5100;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+/* unvisited link */
+a:link {
+  text-decoration: none;
+  color:  #ff5100;
+}
+
+/* visited link */
+a:visited {
+  text-decoration: none;
+  color:  #ff5100;
+}
+
+/* mouse over link */
+a:hover {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+
+}
+
+/* selected link */
+a:active {
+  text-decoration: none;
+  color:  #ff5100;
+}
+
+
+
+
+.labels {
+  color: #ff5100;
+  font-family: sans-serif;
+  font-size: 1.5vh;
+  line-height: 1.3em;
+
+  color: #ff5100;
+  padding-left: 40px;
+
+}
+
+
+.essayheadline {
+  font-family: 'Fugue';
+  letter-spacing: 0.4px;
+  font-size: 6vh;
+  line-height: 1.5em;
+  color: #ff5100;
+}
+
+.essayheadline2 {
+  font-family: 'Fugue';
+  letter-spacing: 0.4px;
+  font-size: 6vh;
+  line-height: 1.2em;
+  color: #ff5100;
+}
+
+
+.essaytext {
+  padding-top: 20px;
+  font-family: sans-serif;
+  font-size: 2.4vh;
+  color: #ff5100;
+  line-height: 1.5em;
+}
+
+.essaytext2 {
+  font-family: sans-serif;
+  font-size: 1.8vh;
+  line-height: 1.5em;
+  color: #ff5100;
+}
+
+
+.essaytext3 {
+  font-family: sans-serif;
+  font-size: 1.8vh;
+  line-height: 1.5em;
+  color: #ff5100;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@keyframes spin2 {
+    from {transform:rotate(360deg);}
+    to {transform:rotate(0deg);}
+}
+
+
+.sideB{
+  /* transform: rotate(40deg); */
+  -webkit-animation:spin2 8s linear infinite;
+  -moz-animation:spin2 8s linear infinite;
+  animation:spin2 8s linear infinite;
+  /* top: 2vh; */
+  font-size: 1.5vw;
+}
+
+.sideA {
+    /* transform: rotate(40deg); */
+    -webkit-animation:spin 12s linear infinite;
+    -moz-animation:spin 12s linear infinite;
+    animation:spin 12s linear infinite;
+    top: 2vh;
+    font-size: 1.5vw;
+}
+
+
+
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+
+.animation1 {
+
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    color: black;
+    margin: 8vw;
+    text-align: center;
+    -webkit-animation-name: spin3;
+    -webkit-animation-duration: 4000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin3;
+    -moz-animation-duration: 4000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin3;
+    -ms-animation-duration: 4000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+}
+
+@-webkit-keyframes spin3 {
+      from {
+        -webkit-transform:rotate(0deg);
+      }
+
+      to {
+        -webkit-transform:rotate(360deg);
+      }
+    }
+
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #ff5100;
+      font-family: sans-serif;
+      color: #FFC8AA;
+      text-align: center;
+    }
+
+    .logo{
+      font-family: 'Fugue';
+      letter-spacing: 0.4px;
+    }
+
+
+    .divs{
+      padding: 20%;
+    }
