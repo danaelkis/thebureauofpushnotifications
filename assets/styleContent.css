@@ -56,7 +56,7 @@ color: #ff5100;
 .sidelogo{
   font-family: 'Fugue';
   letter-spacing: 0.4px;
-  font-size: 2vh;
+  font-size: 3vh;
   color: #ff5100;
   padding-left: 40px;
   padding-top: 20px;
@@ -123,7 +123,7 @@ a:active {
 .essaytext {
   padding-top: 20px;
   font-family: sans-serif;
-  font-size: 1.8vh;
+  font-size: 2.8vh;
   color: #ff5100;
   line-height: 1.5em;
 }

@@ -15,6 +15,7 @@
 } */
 
 
+
 .soundhover {
 background-color: red;
 margin: 20px;
@@ -27,7 +28,8 @@ height: 5vh;
   width: 100%;
   /* height: fixed;
   width: fixed; */
-  object-fit: fill;
+  /* height: 120vh; */
+  /* object-fit: cover; */
   /* margin: calc( 2 * var(--gutter)); */
 
 }
